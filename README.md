@@ -32,6 +32,10 @@ This project helps users turn rough product ideas into structured outcomes such 
 - 🗂️ Saved drafts and historical generation tracking
 - 🎨 Light lavender + green visual theme
 
+## Interface
+<img width="1726" height="911" alt="image" src="https://github.com/user-attachments/assets/9218c003-2445-49be-9555-4fe638bf8d29" />
+
+
 ## 📁 Project Structure
 
 ```bash
