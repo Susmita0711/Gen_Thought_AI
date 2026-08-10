@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+:root {
+  --lavender-50: #f9f6ff;
+  --lavender-100: #f0eaff;
+  --lavender-200: #e4d9ff;
+  --lavender-300: #cbb8ff;
+  --lavender-500: #8e7ae6;
+  --green-50: #f1fff7;
+  --green-100: #defae8;
+  --green-300: #9fe4b8;
+  --green-500: #53b883;
+  --green-700: #2b7555;
+  --ink-900: #1d2433;
+  --ink-700: #3b465d;
+  --ink-500: #667289;
+  --line: rgba(142, 122, 230, 0.16);
+  --panel: rgba(255, 255, 255, 0.76);
+  --panel-strong: rgba(248, 243, 255, 0.95);
+  --shadow: rgba(125, 110, 181, 0.12);
+}
+
+html {
+  background: linear-gradient(180deg, #f7f4ff 0%, #eef9f3 100%);
+  color: var(--ink-900);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #f7f4ff 0%, #eefaf3 100%);
+  color: var(--ink-900);
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .glass-card {
+    background: var(--panel);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--line);
+    box-shadow: 0 18px 45px var(--shadow);
+  }
+  .glass-panel {
+    background: rgba(255,255,255,0.78);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--line);
+    box-shadow: 0 10px 30px rgba(96, 86, 145, 0.08);
+  }
+  .ai-gradient-text {
+    background: linear-gradient(90deg, var(--lavender-500) 0%, var(--green-500) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .ai-gradient-btn {
+    background: linear-gradient(90deg, var(--lavender-300), var(--green-300));
+    color: #183329;
+    box-shadow: 0 12px 24px rgba(125, 110, 181, 0.18);
+  }
+  .ai-button-glow:hover {
+    box-shadow: 0 0 25px rgba(125, 110, 181, 0.18);
+  }
+  .font-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .font-display {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 0.6; }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+@keyframes text-shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.text-shimmer {
+  background: linear-gradient(90deg, #d3c8ff 0%, #7ccfa2 50%, #d3c8ff 100%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: text-shimmer 2.5s linear infinite;
+}

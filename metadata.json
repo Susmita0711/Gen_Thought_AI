@@ -1,0 +1,6 @@
+{
+  "name": "IdeaForge AI",
+  "description": "Transform your raw project concepts into robust tech stacks, MVP roadmaps, and viability scores with AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
