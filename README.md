@@ -1,20 +1,20 @@
-# Gen Thought AI
+# ✨ Gen Thought AI
 
 A polished AI-powered idea-to-project generation app built with React, Vite, and TypeScript.
 
 This project helps users turn rough product ideas into structured outcomes such as:
-- project blueprints
-- market viability and uniqueness scores
-- tech stack recommendations
-- MVP roadmap planning
-- AI integration suggestions
+- 🧠 project blueprints
+- 📈 market viability and uniqueness scores
+- ⚙️ tech stack recommendations
+- 🗺️ MVP roadmap planning
+- 🤖 AI integration suggestions
 
-## Live Demo
+## 🚀 Live Demo
 
-The app is currently running locally with Vite on:
-- http://localhost:3000/
+- Production deployment: https://gen-thought-ai.vercel.app/
+- Local development: http://localhost:3000/
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - React 19
 - TypeScript
@@ -23,16 +23,16 @@ The app is currently running locally with Vite on:
 - Custom UI components
 - Local draft/history persistence
 
-## Features
+## ✨ Features
 
-- Smart prompt-based idea improvement
-- Instant project blueprint generation
-- Recommended technology stack selection
-- MVP roadmap with deliverables
-- Saved drafts and historical generation tracking
-- Light lavender + green visual theme
+- 💡 Smart prompt-based idea improvement
+- ⚡ Instant project blueprint generation
+- 🧩 Recommended technology stack selection
+- 🧭 MVP roadmap with deliverables
+- 🗂️ Saved drafts and historical generation tracking
+- 🎨 Light lavender + green visual theme
 
-## Project Structure
+## 📁 Project Structure
 
 ```bash
 src/
@@ -44,7 +44,7 @@ src/
   index.css
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Clone the repository
 2. Install dependencies:
@@ -65,16 +65,16 @@ npm run dev -- --host 0.0.0.0 --port 3000
 http://localhost:3000/
 ```
 
-## Build
+## 🏗️ Build
 
 ```bash
 npm run build
 ```
 
-## Notes
+## 📝 Notes
 
 This project includes a client-side fallback blueprint generator so it remains usable even if the AI backend is unavailable.
 
-## License
+## 📜 License
 
 This project is for educational and portfolio/demo purposes.
